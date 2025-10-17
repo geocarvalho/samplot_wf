@@ -1,0 +1,47 @@
+# Large reference/data files (should be hosted on S3 or similar)
+*.gff3.gz
+*.gff3.gz.tbi
+*.bed
+*.bed.gz
+*.bed.gz.tbi
+*.fasta
+*.fasta.fai
+*.fa
+*.fa.fai
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Nextflow work directory
+work/
+.nextflow/
+.nextflow.*
+
+# Nextflow log files
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+

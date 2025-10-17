@@ -1,0 +1,13 @@
+{
+    "version": "develop",
+    "buckets_to_read": [],
+    "buckets_to_read_write": [],
+    "container_build_manifest": "containers/container_manifest.json",
+    "bucket_bioinfo_resources": "bioinfo-resources",
+    "workflow_name": "samplot_wf",
+    "workflow_manifest": "workflow_manifest.json",
+    "workflow_path": "./samplot_wf/",
+    "omics_role_arn": "arn:aws:iam::767397884316:role/neogenomica.omics",
+    "sequence_store": "germline-template",
+    "arn_extra_ecr_repositories": []
+}

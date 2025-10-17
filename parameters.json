@@ -1,0 +1,64 @@
+{   
+    "samplot_docker": {
+        "description": "Samplot docker image."
+    },
+    "input": {
+        "description": "CSV samplesheet with columns: sample_name,alignment,index. Path to the input samplesheet file."
+    },
+    "chrom": {
+        "description": "Chromosome to visualize (e.g., 'chr1', '1'). Required parameter."
+    },
+    "start": {
+        "description": "Start position of the region to visualize. Required parameter."
+    },
+    "end": {
+        "description": "End position of the region to visualize. Required parameter."
+    },
+    "sv_type": {
+        "description": "Type of structural variant (e.g., 'DEL', 'DUP', 'INV'). Required parameter."
+    },
+    "window": {
+        "description": "Window size around the region to display. Optional parameter.",
+        "optional": true
+    },
+    "max_depth": {
+        "description": "Maximum read depth to display. Optional parameter.",
+        "optional": true
+    },
+    "plot_height": {
+        "description": "Height of the output plot in pixels. Optional parameter.",
+        "optional": true
+    },
+    "plot_width": {
+        "description": "Width of the output plot in pixels. Optional parameter.",
+        "optional": true
+    },
+    "include_mqual": {
+        "description": "Include mapping quality information. Optional parameter.",
+        "optional": true
+    },
+    "output_file": {
+        "description": "Custom name for the output PNG file. Optional parameter.",
+        "optional": true
+    },
+    "reference": {
+        "description": "Path to reference genome FASTA file. Optional parameter.",
+        "optional": true
+    },
+    "transcript_file": {
+        "description": "Path to transcript annotation file (e.g., GTF/GFF). Optional parameter.",
+        "optional": true
+    },
+    "transcript_file_index": {
+        "description": "Path to transcript annotation file index. Optional parameter.",
+        "optional": true
+    },
+    "annotation_files": {
+        "description": "Space-separated list of annotation files to overlay on the plot. Optional parameter.",
+        "optional": true
+    },
+    "annotation_files_index": {
+        "description": "Space-separated list of annotation files index. Optional parameter.",
+        "optional": true
+    }
+}

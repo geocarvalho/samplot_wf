@@ -1,0 +1,12 @@
+{
+    "assets": [],
+    "description": "Samplot Pipeline",
+    "main_script": "main.nf",
+    "parameters_json": "parameters.json",
+    "arn_extra_buckets":[
+        "arn:aws:s3:::omics-us-east-1",
+        "arn:aws:s3:::omics-us-east-1/*",
+        "arn:aws:s3:::omics-ap-us-east-1/*",
+        "arn:aws:s3:::sentieon-omics-license-us-east-1/*"
+    ]
+}   
